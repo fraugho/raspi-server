@@ -38,9 +38,6 @@ sudo mount -a
 
 echo "Drive $device_path has been formatted (if enabled), mounted at /mnt/$mount_name, and is ready for use."
 
-
-#!/bin/bash
-
 # Setup WiFi
 function setup_wifi() {
     echo "Configuring WiFi Connection..."
